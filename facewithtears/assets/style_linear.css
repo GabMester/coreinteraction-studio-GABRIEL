@@ -1,0 +1,102 @@
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(franklin.ttf);
+}
+
+img { 
+	position: relative;
+	height: 50px;
+	width: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	left: 0;
+	}
+
+
+img:hover { 
+	position: relative;
+	height: 100px;
+	width: 100px;
+	padding:0;
+	}
+
+.randomEmoji {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	}
+
+.face {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+
+
+body {
+	width: 320px;
+	color: light;
+}
+
+iframe { 
+
+position: absolute;
+left: 40%;
+top: 25%;
+height: 300px;
+width: 420px;
+overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+	overflow: hidden;
+	}
+
+.word { 
+	font-family: helvetica ;
+	font-style: bold;
+	font-size: 15px;
+	color: lightgrey;
+	margin-bottom: 0;
+	}
+
+.word2 { 
+	font-family: helvetica ;
+	font-style: bold;
+	font-size: 15px;
+	color: black;
+	margin-bottom: 0;
+	}
+	
+
+.definition {
+	color: lightgrey;
+	position: relative;
+	font-family: baskerville;
+	font-size: 12px; 
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	width: 200px;
+	margin: 2px;
+}
+
+
+.definition2 {
+	color: black;
+	position: relative;
+	font-family: baskerville;
+	font-size: 12px; 
+	margin-right: auto;
+	margin-left: auto;
+	text-align: justify;
+	width: 200px;
+	margin: 2px;
+}
+
+
+
+		
