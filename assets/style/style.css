@@ -1,0 +1,93 @@
+
+
+
+
+body {
+
+	/*comments look like this in css    width: 400px;*/
+	
+	margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+	padding: 40px;
+/*	background-color: rgb(245,245,245);
+*/	font-family: helvetica ;
+	font-size: 12px; 
+	line-height: 1,5;
+	
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(antique_black.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(antique_nord_italic.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(Antique-Olive-Std-Italic_3865.ttf);
+}
+
+
+.title {
+	font-family: myFirstFont;
+	font-size: 20px;
+	line-height: 18px;
+	width: 170px;
+	}
+
+.plus {
+	font-family: myFirstFont;
+	font-size: 20px;
+	line-height: 18px;
+	width: 170px;
+	}
+
+	.firstCategory {
+	line-height: 50px;	
+	color:rgb(242, 240, 181);
+	font-family: myFirstFont;
+	font-size: 40px;
+	text-decoration: none;
+	}
+
+	.firstCategory:hover {
+	line-height: 50px;	
+	color: yellow;
+		font-family: myFirstFont;
+	font-size: 40px;
+	text-decoration: none;
+	}
+
+	.secondCategory {
+	line-height: 50px;	
+	color:rgb(242, 240, 181);
+	font-family: myFirstFont;
+	font-size: 40px;
+	text-decoration: none;
+	margin-left:5%;
+	}
+
+	.secondCategory:hover {
+	line-height: 50px;	
+	color: yellow;
+	font-family: myFirstFont;
+	font-size: 40px;
+	text-decoration: none;
+	}
+
+
+
+.wrapper {
+	width: 100px;
+	font-family: mySecondFont;
+}
+
+.poem {
+	width: 100px;
+}
+
