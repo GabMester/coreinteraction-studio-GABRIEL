@@ -299,7 +299,7 @@ body {
               font-family: secondFont;
               font-size: 20px;
               color: black;
-              width: 12vw;
+              width: 100%;
               margin: 5px;
               z-index: +100;
               transition: 0.3s;
