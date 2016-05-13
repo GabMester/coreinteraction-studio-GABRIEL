@@ -6,8 +6,8 @@ var cntrl_state = false;
 
 $("#bouton").mouseenter(function() {
     cntrl.show();
-    $("#bouton").css("height" , "200px");
-    $("#bouton").css( "width" , "15vw");
+    $("#bouton").css("height" , "220px");
+    $("#bouton").css( "width" , "200px");
     $("#bouton").css( "border-radius" , "0%");
   });
 
