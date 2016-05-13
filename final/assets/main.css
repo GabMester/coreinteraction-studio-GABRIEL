@@ -251,10 +251,12 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,.125);
   opacity: 1;
   transition: opacity .3s;
+  opacity: 0.8;
   z-index: +100;
   /*border-style: solid;*/
             border-width: 2.5px;
             border-color: black;
+
 }
 
 
@@ -284,6 +286,7 @@ body {
             border-width: 2.5px;
             border-color: black;
             box-shadow: 0 0 20px rgba(0,0,0,.125);
+            opacity: 0.8;
           }
 
 
@@ -325,7 +328,7 @@ body {
               
               position: absolute;
               text-align: center;
-              left: 35%;
+              left: 38%;
               font-family: secondFont;   
             }
 
