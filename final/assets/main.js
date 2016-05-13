@@ -7,7 +7,7 @@ var cntrl_state = false;
 $("#bouton").mouseenter(function() {
     cntrl.show();
     $("#bouton").css("height" , "200px");
-    $("#bouton").css( "width" , "15vw");
+    $("#bouton").css( "width" , "10vw");
     $("#bouton").css( "border-radius" , "0%");
   });
 
