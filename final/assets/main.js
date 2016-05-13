@@ -6,7 +6,7 @@ var cntrl_state = false;
 
 $("#bouton").mouseenter(function() {
     cntrl.show();
-    $("#bouton").css("height" , "220px");
+    $("#bouton").css("height" , "210px");
     $("#bouton").css( "width" , "200px");
     $("#bouton").css( "border-radius" , "0%");
   });
